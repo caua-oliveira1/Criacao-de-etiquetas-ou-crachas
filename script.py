@@ -31,9 +31,7 @@ TEMPO_ESPERA_DOWNLOAD = 6  #Em segundos, mude de acordo com seu pc/internet
 print("Você tem 5 segundos para deixar o canva na tela")
 time.sleep(5) #Espera 5 segundos
 
-total_linhas = len(df)
 processados = 0
-pulados = 0
 
 for index, row in df.iterrows():
     nome = str(row["Nome"]).strip()

@@ -4,6 +4,7 @@ import time
 import os
 
 #Configure antes de usar!
+#Link template usado de base: https://canva.link/oyy0l0c6bbsq42h
 
 #Pega o endereco desse script e baixa em uma pasta "crachas"
 pasta_script = os.path.dirname(os.path.abspath(__file__))

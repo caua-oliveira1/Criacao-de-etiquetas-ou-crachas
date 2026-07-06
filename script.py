@@ -25,7 +25,7 @@ botao_compartilhar = (721, 112)
 botao_baixar_menu = (597, 580)
 botao_baixar_confirmar = (646, 554)
 
-TEMPO_ESPERA_DOWNLOAD = 6  #Em segundos, mude de acordo com seu pc/internet
+tempo_download = 6  #Em segundos, mude de acordo com seu pc/internet
 
 
 print("Você tem 5 segundos para deixar o canva na tela")
@@ -80,7 +80,7 @@ for index, row in df.iterrows():
         pyautogui.click(*botao_baixar_confirmar)
 
         print("Aguardando janela 'Salvar como'...")
-        time.sleep(TEMPO_ESPERA_DOWNLOAD)
+        time.sleep(tempo_download)
 
         # Digita o caminho completo na caixa de nome do arquivo e confirma
         pyautogui.hotkey('ctrl', 'a')  # seleciona o nome padrão sugerido
